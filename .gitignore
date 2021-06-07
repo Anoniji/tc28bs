@@ -1,2 +1,4 @@
 
 .twitch
+_build/
+*.pyc
