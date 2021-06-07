@@ -70,11 +70,11 @@ def gen_sound(message):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--vibrato', type=float)
-    parser.add_argument('--rand_min', type=int)
-    parser.add_argument('--rand_max', type=int)
-    parser.add_argument('--coef', type=int)
-    parser.add_argument('--time_bip', type=float)
+    parser.add_argument('--vibrato', type=float, default=vibrato)
+    parser.add_argument('--rand_min', type=int, default=rand_min)
+    parser.add_argument('--rand_max', type=int, default=rand_max)
+    parser.add_argument('--coef', type=int, default=coef)
+    parser.add_argument('--time_bip', type=float, default=time_bip)
     args = parser.parse_args()
 
 
